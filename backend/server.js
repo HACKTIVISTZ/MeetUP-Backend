@@ -47,6 +47,7 @@ process.on('uncaughtException',err=>{
 
 
 mongoose.connect(DB,{
+    useUnifiedTopology: true,
     useNewUrlParser:true,
     useFindAndModify:false
     
